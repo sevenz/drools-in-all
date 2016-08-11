@@ -1,0 +1,1 @@
+# a demo about how to using drools, but right now just basic function
