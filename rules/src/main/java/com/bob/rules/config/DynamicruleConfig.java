@@ -20,7 +20,7 @@ public class DynamicruleConfig {
      */
     @Bean(name = "billKieContainer")
     public KieContainer billKieContainer() {
-        ReleaseIdImpl releaseId = new ReleaseIdImpl("com.u51.finance", "droolsruleconfig-billdata", "0.0.1-SNAPSHOT");
+        ReleaseIdImpl releaseId = new ReleaseIdImpl("com.bob.finance", "droolsruleconfig-bob", "0.0.1-SNAPSHOT");
         KieServices ks = KieServices.Factory.get();
         KieContainer kContainer = ks.newKieContainer(releaseId);
         KieScanner kieScanner = ks.newKieScanner(kContainer);
